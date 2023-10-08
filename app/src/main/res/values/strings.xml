@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">RTOExam</string>]
+
+    <string-array name="Question">
+        <item></item>
+        <item>You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should</item>
+        <item>When a vehicle is involved in an accident causing injury to any person</item>
+        <item>On a road designated as one way </item>
+        <item> You can overtake a vehicle in front</item>
+        <item> When a vehicle approaches an unguarded railway level crossing, before crossing it, the driver shall</item>
+        <item>How can you distinguish a transport vehicle. </item>
+        <item>Validity of learners licence</item>
+        <item> In a road without footpath, the pedestrians </item>
+        <item>Free passage should be given to the following types of vehicles </item>
+        <item>21 Vehicles proceeding from opposite direction should be allowed to pass through ?</item>
+        <item>Driver of a vehicle may overtake ?</item>
+        <item>Driver of a motor vehicle shall drive through </item>
+        <item>When a Vehicle is parked on the road side during night</item>
+        <item> Fog lamps are used </item>
+        <item>Zebra lines are meant for.. </item>
+        <item>When an ambulance is approaching ..</item>
+        <item>Red traffic light indicates ..</item>
+        <item>Parking a vehicle in front of entrance to hospital </item>
+        <item>Where the slippery road sign is seen on the road, the driver shall</item>
+        <item>Overtaking is prohibited in following circumstances</item>
+        <item>Overtaking when approaching a bend</item>
+        <item>Drunken driving</item>
+        <item>Use of horn prohibited </item>
+        <item>Rear view mirror is used </item>
+        <item>Boarding in and alighting from a vehicle while in motion</item>
+        <item> Parking is permitted </item>
+        <item>When fuel is filled in a vehicle</item>
+        <item>Mobile phones shall not be use</item>
+        <item>Overtaking is prohibited</item>
+        <item>The pedestrians shall not cross the road at sharp bends or very near to a stopped vehicle. Why? </item>
+        <item>Records of a private vehicle are </item>
+        <item>While turning to a road to the left of the road in which you are going, you should </item>
+        <item> Validity of P.U.C.C. Pollution Under Control Certificate </item>
+        <item>The Driver of a vehicle extends his right arm with the palm downward and moves the arm upward and
+downward several times.You will understandthat </item>
+        <item>Minimum age for getting a licence to drive motor cycle without gear</item>
+        <item>When you see the traffic sign School, you should</item>
+        <item>While turning to the left, the driver of a two wheeler shall</item>
+        <item>The Signal while taking U-turn</item>
+        <item>The driver of a vehicle shall not take U-turn</item>
+        <item>One time tax for a new car is for</item>
+        <item>Before overtaking a vehicle, it should be ensured that ? </item>
+        <item>Number of persons can be carried in the cabin of a Goods Carriage</item>
+        <item>When your vehicle is being overtaken, you should </item>
+        <item>A place where parking is prohibited</item>
+        <item>The hand brake is to be used</item>
+        <item>More than two persons on a two wheeler is </item>
+        <item>You want to overtake a vehicle near a hospital.You will</item>
+        <item>Using unregistered vehicle in public place is </item>
+        <item>Minimum age for obtaining driving licence for transport vehicles. </item>
+        <item> Overtaking is prohibited in the following case</item>
+
+    </string-array>
+
+    <string-array name="Answer">
+        <item></item>
+        <item>Wait till the other vehicle crosses the bridge and then proceed </item>
+        <item>Take all reasonable steps to secure medical attention to the injured and report to the nearestpolice
+station within 24 hours </item>
+        <item>Should not drive in reverse gear</item>
+        <item>Through the right side of that vehicle</item>
+        <item>Stop the vehicle on the left side of the road, get down from the vehicle, go to the railway track,and
+ensure that no train or trolley is coming from either side</item>
+        <item>By looking at the number plate of the vehicle</item>
+        <item>6 months</item>
+        <item>Should walk on the right side of the road</item>
+        <item>Ambulance and fire service vehicles</item>
+        <item>Your right side</item>
+        <item>When the driver of the vehicle in front shows the signal to overtake </item>
+        <item>The left side of the road</item>
+        <item>The park light shall remain lit</item>
+        <item>When there is mist</item>
+        <item>pedestrians crossing</item>
+        <item>the driver shall allow free passage by drawing to the side of the road</item>
+        <item>stop the vehicle.</item>
+        <item>Improper</item>
+        <item>reduce the speed by changing the gear</item>
+        <item>when it is likely to cause inconvenience or danger to other traffic</item>
+        <item>not permissible</item>
+        <item>prohibited in all vehicles.</item>
+        <item>Near Hospital, Courts of Law</item>
+        <item>for watching the traffic approaching from behind</item>
+        <item>prohibited in all vehicles</item>
+        <item>Where parking is not prohibited</item>
+        <item>shall not smoke</item>
+        <item>While driving a vehicle </item>
+        <item>When the road ahead is not clearly visible</item>
+        <item>Drivers of other vehicles coming at a distance may not see persons crossing the road. </item>
+        <item>Registration certificate., Insurance Certificate, Tax Token, Driving Licence</item>
+        <item>Show the left turn signal, keep to the left side of the road and turn to the left</item>
+        <item>6 months</item>
+        <item>He is slowing down the vehicle</item>
+        <item>16 years </item>
+        <item>Slow down and proceed with caution</item>
+        <item>Show left turn signal with his right hand </item>
+        <item>Right turn signal </item>
+        <item>In a busy road</item>
+        <item>15 years</item>
+        <item>The road ahead is clearly visible and it is safe to overtake</item>
+        <item>As many persons as recorded in the Registration Certificate</item>
+        <item>Not obstruct the other vehicle from over taking</item>
+        <item>On foot-path </item>
+        <item>To park a vehicle </item>
+        <item> Violation of law</item>
+        <item>Not blow horn. </item>
+        <item>Illegal</item>
+        <item>20 years</item>
+        <item>Narrow bridge.</item>
+    </string-array>
+
+
+    <string name="title_activity_question">Question</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_symbol">symbol</string>
+    <string name="heading_drivinglaws">7 Most Important Traffic Rules to follow in India</string>
+
+
+    //Driving Law Strings
+
+    <string name="Rule1">1. Do Not Drink and Drive</string>
+    <string name="Ans1">A statistic reveals that around 19 Indians are killed daily due to drunk-driving road accidents (source)
+
+As per the current law, the blood alcohol limit permissible for driving is up to 0.03%, which is equivalent to 30 mg of alcohol per 100 ml of blood.
+
+If an individual fails to pass this BAC test, he/she can be fined between Rs.2000 and Rs.10000, based on the final blood alcohol limit.
+
+Moreover, such individuals may also be sentenced to a prison term ranging between 7 months and four years.</string>
+
+    <string name="Rule2">2. Always Own Valid Car Insurance Policy</string>
+
+    <string name="Ans2">According to the Motor Vehicles Act of 1988, all motor vehicles in India need to possess valid third-party insurance coverage at all times.
+
+If you are not careful and the insurance policy lapses, you could be penalised for driving a vehicle without such a protection plan.
+
+The traffic authorities charge a fine of Rs.2000 for a first-time offence of this nature. However, repeat offences can lead to penalties of up to Rs.4000.</string>
+
+    <string name="Rule3">3. Wear your seatbelt while Driving a Car</string>
+
+    <string name="Ans3">If you are new to driving, get in the habit of securing the seat belt as the first thing you do upon entering your vehicle. Doing so will not only help you avoid traffic violations, but it will also save your life in case of mishaps.
+
+If you are caught driving without this seat belt around your waist and chest, traffic cops can fine you up to Rs.1000 for this violation on the spot.</string>
+
+    <string name="Rule4">4. Riding a Two-Wheeler without a Helmet On</string>
+    <string name="Ans4">One must wear a helmet at all times while riding a two-wheeler. One distinction to notice here is that the law states that all individuals on a two-wheeler must put on helmets and not just the driver.
+
+Penalties for non-compliance with this rule come in the form of fines of up to Rs.1000.
+
+In serious cases, traffic authorities may decide to suspend your license for a period of up to 3 months as well.</string>
+
+    <string name="Rule5">5. Using a Mobile Phone while Riding</string>
+    <string name="Ans5">As per the new Motor Vehicle rules in effect from Oct 1, 2020, drivers can only use their phones as a navigational tool while on the wheel.
+
+If you are caught using the phone in any other fashion while driving, get ready to pay a fine of up to Rs.5000. A one-year prison sentence also applies to such traffic violators.</string>
+
+
+    <string name="Rule6">6. Over Speeding</string>
+    <string name="Ans6">Drivers should never exceed the recommended speed guidelines on roads, as doing so will draw the ire of traffic cops.
+
+As per a report, 66% of accidents in 2018 were caused due to speeding on Indian roads. (source)
+
+The fine charged for speeding varies as per the size of your vehicle, typically ranging between Rs.1000 and Rs.2000.     </string>
+
+
+    <string name="Rule7">7. Jumping the Red Light</string>
+    <string name="Ans7">If you do not intend to bear penalties of up to Rs.5000 and a one-year prison sentence, ensure you stick to the various traffic signals during a drive, even if you are in a hurry. Remember the old saying, ‘better late than never.’</string>
+</resources>

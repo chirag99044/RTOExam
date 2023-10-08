@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf6f9"
+    tools:context=".SymbolCatagory">
+
+    <ImageView
+        android:id="@+id/imageViewQuizOption"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="quiz_option"
+        style="@style/titleTextStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewQuizOption"
+        app:layout_constraintStart_toEndOf="@+id/imageViewQuizOption"
+        app:layout_constraintTop_toTopOf="@+id/imageViewQuizOption" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Mandatory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_card_height"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/categoryHeadingTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mandatory/Regulatory Signs"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/Compulsory_direction"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="@dimen/home_card_height"-->
+<!--        app:cardCornerRadius="15sp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        app:cardElevation="8sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/Mandatory"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/Mandatory"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Mandatory">-->
+
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView6"-->
+<!--                style="@style/categoryHeadingTextStyle"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Compulsory direction control"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/Cautionary_sign"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="@dimen/home_card_height"-->
+<!--        app:cardCornerRadius="15sp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        app:cardElevation="8sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/Compulsory_direction"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/Compulsory_direction"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Compulsory_direction">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView7"-->
+<!--                style="@style/categoryHeadingTextStyle"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Cautionary signs"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/information_signs"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="@dimen/home_card_height"-->
+<!--        app:cardCornerRadius="15sp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        app:cardElevation="8sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/Cautionary_sign"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/Cautionary_sign"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Cautionary_sign">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView8"-->
+<!--                style="@style/categoryHeadingTextStyle"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Information signs"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
